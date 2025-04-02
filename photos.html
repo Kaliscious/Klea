@@ -1,0 +1,141 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Klara Heléne Schlüter - Photos</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Dancing+Script:wght@400;700&display=swap">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">Klara Heléne</div>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="photos.html" class="active">Photos</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="gallery-header reveal">
+        <div class="container">
+          <h1>Klara's Photo Gallery</h1>
+          <p>Explore memories from different events and occasions</p>
+          
+          <div class="filter-buttons">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="beach">Beach</button>
+            <button class="filter-btn" data-filter="pageant">Pageant</button>
+            <button class="filter-btn" data-filter="school">School</button>
+            <button class="filter-btn" data-filter="personal">Personal</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="photo-gallery reveal">
+        <div class="container">
+          <div class="gallery-grid">
+            <!-- Beach Photos -->
+            <div class="gallery-item beach">
+              <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e" alt="Beach day">
+              <div class="image-overlay">
+                <p>Summer beach trip</p>
+              </div>
+            </div>
+            <div class="gallery-item beach">
+              <img src="https://images.unsplash.com/photo-1519046904884-53103b34b206" alt="Beach sunset">
+              <div class="image-overlay">
+                <p>Beautiful sunset at the shore</p>
+              </div>
+            </div>
+            
+            <!-- Pageant Photos -->
+            <div class="gallery-item pageant">
+              <img src="https://images.unsplash.com/photo-1516726817505-f5ed825624d8" alt="Pageant preparation">
+              <div class="image-overlay">
+                <p>Preparing for Ms. Tech High</p>
+              </div>
+            </div>
+            <div class="gallery-item pageant">
+              <img src="https://images.unsplash.com/photo-1525613203960-779c2e9d966b" alt="On stage">
+              <div class="image-overlay">
+                <p>Ms. Tech High competition</p>
+              </div>
+            </div>
+            
+            <!-- School Photos -->
+            <div class="gallery-item school">
+              <img src="https://images.unsplash.com/photo-1509062522246-3755977927d7" alt="School event">
+              <div class="image-overlay">
+                <p>Class President duties</p>
+              </div>
+            </div>
+            <div class="gallery-item school">
+              <img src="https://images.unsplash.com/photo-1577896851231-70ef18881754" alt="Poster making">
+              <div class="image-overlay">
+                <p>Poster making competition 2022</p>
+              </div>
+            </div>
+            
+            <!-- Personal Photos -->
+            <div class="gallery-item personal">
+              <img src="https://images.unsplash.com/photo-1560066984-138dadb4c035" alt="Art session">
+              <div class="image-overlay">
+                <p>Working on digital art</p>
+              </div>
+            </div>
+            <div class="gallery-item personal">
+              <img src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe" alt="Hobby time">
+              <div class="image-overlay">
+                <p>Painting session</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <section class="photo-carousel reveal">
+        <div class="container">
+          <h2>Featured Photos</h2>
+          <div class="carousel">
+            <div class="carousel-container">
+              <div class="carousel-slide">
+                <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e" alt="Featured image 1">
+              </div>
+              <div class="carousel-slide">
+                <img src="https://images.unsplash.com/photo-1516726817505-f5ed825624d8" alt="Featured image 2">
+              </div>
+              <div class="carousel-slide">
+                <img src="https://images.unsplash.com/photo-1509062522246-3755977927d7" alt="Featured image 3">
+              </div>
+              <div class="carousel-slide">
+                <img src="https://images.unsplash.com/photo-1560066984-138dadb4c035" alt="Featured image 4">
+              </div>
+            </div>
+            <button class="carousel-button prev">❀</button>
+            <button class="carousel-button next">❀</button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="contact-info">
+          <h3>Contact Information</h3>
+          <p>Email: Klaraheleneschlueter@gmail.com</p>
+          <p>FB/Messenger: Klara Heléne Schlüter</p>
+          <p>IG: @Kureaa7</p>
+          <p>Contact No: 09692495001</p>
+        </div>
+        <p class="copyright">&copy; 2024 Dedicated to Klara Heléne Schlüter</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
