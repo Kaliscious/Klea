@@ -1,0 +1,35 @@
+/* Animation Classes */
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.fade-in.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Decoration elements */
+.decoration {
+  position: absolute;
+  z-index: -1;
+  opacity: 0.6;
+  font-size: 3rem;
+  color: var(--yellow-accent);
+  animation: float 6s ease-in-out infinite;
+  pointer-events: none;
+}
+
+.decoration-1 {
+  top: 20%;
+  left: 5%;
+}
+
+.decoration-2 {
+  bottom: 15%;
+  right: 8%;
+  font-size: 2.5rem;
+  color: var(--primary-color);
+  animation-delay: 2s;
+}
